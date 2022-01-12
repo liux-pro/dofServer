@@ -1,7 +1,7 @@
 #！/bin/bash
 cd /
-tar -zxvf /tmp/nnn.tar.gz -C /
-echo "纯端解压完毕"
+#tar -zxvf /tmp/nnn.tar.gz -C /
+#echo "纯端解压完毕"
 echo "安装依赖"
 cd /tmp/rpm
 rpm -ivh *.rpm --force --nodeps
